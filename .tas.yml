@@ -1,0 +1,13 @@
+framework: jasmine
+preRun:
+     command:
+        - npm install
+        - npm run start-server &
+preMerge:
+  pattern:
+    - "spec/**/*[sS]pec.{js,mjs}"
+postMerge:
+  pattern:
+    - "spec/**/*[sS]pec.{js,mjs}"
+configFile: "spec/support/jasmine.json"
+version: 1.0.0
