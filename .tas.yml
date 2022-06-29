@@ -11,3 +11,4 @@ preMerge:
     - "spec/**/*[sS]pec.{js,mjs}"
 configFile: "spec/support/jasmine.json"
 version: 1.0.0
+
